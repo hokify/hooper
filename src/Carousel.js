@@ -117,7 +117,7 @@ export default {
       isHover: false,
       isFocus: false,
       initialized: false,
-      slideWidth: 0,
+      slideWidth: 100 / this.itemsToShow + '%',
       slideHeight: 0,
       slidesCount: 0,
       trimStart: 0,

@@ -1,5 +1,5 @@
 {
-  "name": "hooper",
+  "name": "@hokify/hooper",
   "version": "0.3.4",
   "description": "A customizable accessible carousel slider optimized for Vue",
   "module": "dist/hooper.esm.js",

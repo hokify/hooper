@@ -22,10 +22,10 @@ export default {
     style() {
       const { config, slideHeight, slideWidth } = this.$hooper || {};
       if (config.vertical) {
-        return `height: ${slideHeight}px`;
+        return `height: ${typeof slideHeight === 'number' ? `${slideHeight}px` : slideHeight}`;
       }
 
-      return `width: ${slideWidth}px`;
+      return `width: ${typeof slideWidth === 'number' ? `${slideWidth}px` : slideWidth}`;
     },
     isActive() {
       const { upper, lower } = this.$hooper.slideBounds;
